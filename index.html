@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project f3-2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="head">TimeZone API</h1>
+    <div class="container">
+        
+        <div class="currentTime">
+            <h1>Your Current Time</h1>
+            <form action="#">
+                <div class="label">
+                    <label for="timeZone">Name of Time Zone: </label>
+                    <input type="text" id="time">
+                </div>
+                <div class="label">
+                    <label for="lat">Lat: </label>
+                    <input type="text" id="lat">
+                    <label for="long">Long: </label>
+                    <input type="text" id="long">
+                </div>
+                <div class="label">
+                    <label for="Std">OffSet STD: </label>
+                    <input type="text" id="std">
+                </div>
+                <div class="label">
+                    <label for="stdSec">OffSet STD Seconds: </label>
+                    <input type="text" id="stdSec">
+                </div>
+                <div class="label">
+                    <label for="Dst">OffSet DST: </label>
+                    <input type="text" id="dst">
+                </div>
+                <div class="label">
+                    <label for="dstSec">OffSet DST Seconds: </label>
+                    <input type="text" id="dstSec">
+                </div>
+                <div class="label">
+                    <label for="country">Country: </label>
+                    <input type="text" id="country">
+                </div>
+                <div class="label">
+                    <label for="postCode">PostCode: </label>
+                    <input type="text" id="postCode">
+                </div>
+                <div class="label">
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+            </form>
+        </div>
+        <div class="adress">
+            <h1>Enter Adress</h1>
+            <input type="text" id="address" placeholder="Address">
+            <button id="btn">submit</button>
+            <div id="show"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
